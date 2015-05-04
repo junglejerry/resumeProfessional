@@ -1,13 +1,6 @@
 $(document).ready(function() {
 
 
-    //Investigate a better navbar scrolling function
-    //$(window).scroll(function(){
-    //    if($(window).scrollTop() > $(window).height()){
-    //        $(".menu").css({"background-color":"transparent"});   
-    //    }
-    //})
-
 
     //Contact Me Button//
     $("#button1").click(function() {
