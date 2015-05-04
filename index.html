@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang "en">
+
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html;">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="owl-carousel/owl.transitions.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/simpletextrotator.css" />
+    <title> JavaScript </title>
+</head>
+
+<body class="wrapper">
+    <!-- Facebook JS code is below -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Begin Navbar -->
+    <nav class="navbar transparent navbar-fixed-top">
+        <!-- Transparent and Default are some Navbar Options -->
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="container">
+                <!-- Headhesive begins here -->
+                <!--<div class="header headhesive--clone"> add a closing div--> 
+                    <!-- header elements will be cloned inside -->
+                <!-- Navbar left begins here -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.rebootcoding.com/" target="_blank">Jerry John Comellas</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- html and js code for twitter button -->
+                        <li class="twitter">
+                            <a href="https://twitter.com/ComellasJerry" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @ComellasJerry</a>
+                            <script>
+                            ! function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0],
+                                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, 'script', 'twitter-wjs');
+                            </script>
+                        </li>
+                        <!-- html code for facebook links to js code above near start of body -->
+                        <li class="facebook">
+                            <div class="fb-like" data-href="http://www.rebootcoding.com/" data-layout="button" data-action="recommend" data-show-faces="false" data-share="false"></div>
+                        </li>
+                    </ul>
+                    <!-- Navbar right begins here -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- LinkedIn Button code begins here -->
+                        <li class="linkedin">
+                            <a href="https://www.linkedin.com/pub/jerry-john-comellas/88/728/204" target="_blank">
+                                <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_liprofile_blue_80x15.png" width="80" height="15" border="0" alt="View Jerry John Comellas's profile on LinkedIn"></a>
+                        </li>
+                        <!-- Dropdown menu begins -->
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Customers <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="http://www.rebootcoding.com/" target="_blank">Re:Boot</a></li>
+                                <li><a href="http://www.gainesvilletargetrange.com/" target="_blank">GTR</a></li>
+                                <li><a href="http://www.acorntooakinternational.com/" target="_blank">A2O</a></li>
+                                <li class="divider"></li>
+                                <li><a href="http://www.rebootcoding.com/" target="_blank">Studied @ Re:Boot</a></li>
+                            </ul>
+                        </li>
+                        <li class="home">
+                            <a data-scroll href="#home">Home</a>
+                        </li>
+                        <li class="profile">
+                            <a data-scroll href="#profile">Profile</a>
+                        </li>
+                        <li class="services">
+                            <a data-scroll href="#services">Services</a>
+                        </li>
+                        <li class="resume">
+                            <a data-scroll href="#resume">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- Jumbotron begins here -->
+        <div id="home" class="jumbotron">
+            <div class="row">
+                <h1>Jerry John Comellas</h1>
+            </div>
+            <div>
+                <h2><span class="rotate">Creative Web Developer, Visual Designer, Front-end Developer, Internet Marketing</span></h2>
+            </div>
+        </div>
+        <!-- Jumbotron Ends here -->
+        <div class="container">
+            <div id="glyphs" class="row">
+                <div class="col-md-4">
+                    <h4><span class="glyphicon glyphicon-envelope"></span></h4>
+                    <p>jerry.comellas@gmail.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h4><span class="glyphicon glyphicon-earphone"></span></h4>
+                    <p>(813) 331-7170</p>
+                </div>
+                <div class="col-md-4">
+                    <h4><span class="glyphicon glyphicon-home"></span></h4>
+                    <p>6304 N. 19th St</p>
+                    <p style="margin-top: -9px">Tampa, FL 33610</p>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- Begin Skills & Profile -->
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="heading1">Jerry John Comellas</h2>
+                    <p class="subhead1">Visual Designer, Front-end Developer, Internet Marketing</p>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="user"><span class="glyphicon glyphicon-user"></span></h2>
+                    <p class="subhead1" style="text-align: center">_______________________________________________________</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img id="dominica" src="jerry_at_dominica-116kb.jpg" />
+                </div>
+                <!-- Begin Skill Bars -->
+                <div class="col-md-4">
+                    <h3 class="heading2">SKILLSET</h3>
+                    <div class="skillbar clearfix" data-percent="70%">
+                        <div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+                        <div class="skillbar-bar" style="background: #e67e22;"></div>
+                        <div class="skill-bar-percent">70%</div>
+                    </div>
+                    <!-- End HTML5 Skill Bar -->
+                    <div class="skillbar clearfix" data-percent="70%">
+                        <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+                        <div class="skillbar-bar" style="background: #3498db;"></div>
+                        <div class="skill-bar-percent">70%</div>
+                    </div>
+                    <!-- End CSS3 Skill Bar -->
+                    <div class="skillbar clearfix" data-percent="50%">
+                        <div class="skillbar-title" style="background: #2c3e50;"><span>jQuery</span></div>
+                        <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                        <div class="skill-bar-percent">50%</div>
+                    </div>
+                    <!-- End jQuery Skill Bar -->
+                    <div class="skillbar clearfix" data-percent="60%">
+                        <div class="skillbar-title" style="background: #124e8c;"><span>Photoshop</span></div>
+                        <div class="skillbar-bar" style="background: #4288d0;"></div>
+                        <div class="skill-bar-percent">60%</div>
+                    </div>
+                    <!-- End Photoshop Skill Bar -->
+                    <div class="github">
+                        <iframe src="http://ghbtns.com/github-btn.html?user=junglejerry&repo=junglejerry/FirstRepo&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
+                    </div>
+                    <!-- End github link -->
+                </div>
+                <div class="col-md-5">
+                    <h3 class="heading3" id="profile">PROFESSIONAL PROFILE</h3>
+                    <p class="profileText">info info info info</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Skills & Profile -->
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- Begin Stats & Coffee -->
+            <div class="row" style="background-color:#F0BF0B; text-align: center">
+                <div class="col-lg-3">
+                    <h4>My Stats</h4>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Cups of Coffee</h4>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Lines of Code</h4>
+                </div>
+                <div class="col-lg-3">
+                    <h4>Happy Day</h4>
+                </div>
+            </div>
+        </div>
+        <!-- End Stats & Coffee -->
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- Begin What I Can Do -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="heading4">What I can do</h3>
+                    <p id="services">My Services</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
+                    </span>
+                    </p>
+                    <div class="wow fadeInUp">
+                    <p>info info info info</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
+                    </span>
+                    </p>
+                    <div class="wow fadeInUp">
+                    <p>info info info info</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
+                    </span>
+                    </p>
+                    <div class="wow fadeInUp">
+                    <p>info info info info</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <p><span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
+                    </span>
+                    </p>
+                    <div class="wow fadeInUp">
+                    <p>info info info info</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
+                    </span>
+                    </p>
+                    <div class="wow fadeInUp">
+                    <p>info info info info</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
+                    </span>
+                    </p>
+                    <div class="wow fadeInUp">
+                    <p>info info info info</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End What I Can Do -->
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- Begin Status -->
+            <div class="row" style="background-color:#F0BF0B">
+                <div class="col-lg-3" style="text-align: center">
+                    <h4>My Status</h4>
+                </div>
+                <div class="col-lg-9" style="text-align: center">
+                    <h4>I'm currently available for freelance work.</h4>
+                    <div class="button1">
+                        <button type="button" class="btn-primary btn-lg" a href="mailto: jerry.comellas@gmail.com" id="button1">Contact Me</button>
+                        <p id="button1 "></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Status -->
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <!-- Begin Resume Education -->
+                <div class="col-md-12">
+                    <h3 id="resume" class="heading5">Resume</h3>
+                    <p class="subhead5">My education and experience.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <h4 class="heading6"><span class="glyphicon glyphicon-education" style="color: #CC5200"></span><span class="spacing">EDUCATION</span></h4>
+                </div>
+                <div class="col-md-7">
+                    <h4 class="heading7">International Studies / Missions</h4>
+                    <div class="wow rubberBand">
+                    <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    </div>
+                    <h4 class="heading8">Leadership & Administration</h4>
+                    <div class="wow rubberBand">
+                    <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    </div>
+                    <h4 class="heading9">Front-End Engineering</h4>
+                    <div class="wow rubberBand">
+                    <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <p class="school"><strong>Southeastern University</strong></p>
+                    <p class="dateRange">Date Range</p>
+                    <p class="school"><strong>Southeastern University</strong></p>
+                    <p class="dateRange">Date Range</p>
+                </div>
+            </div>
+            <!-- Begin Resume Experience -->
+            <div class="row">
+                <div class="col-md-3">
+                    <h4 class="heading10"><span class="glyphicon glyphicon-folder-open" style="color: #CC5200"></span><span class="spacing">EXPERIENCE</span></h4>
+                </div>
+                <div class="col-md-7">
+                    <h4 class="heading11">Web Design & Point of Sale</h4>
+                    <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    <h4 class="heading12">Administrator</h4>
+                    <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    <div class="button2">
+                        <button type="button" class="btn-primary btn-lg" a href="#" id="button2">Download CV</button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <p class="school"><strong>Southeastern University</strong></p>
+                    <p class="dateRange">Date Range</p>
+                    <p class="school"><strong>ReBoot Coding</strong></p>
+                    <p class="dateRange">Date Range</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Resume -->
+        <hr/>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <!-- Customers Section -->
+            <div class="row" id="customers">
+                <div class="col-md-6">
+                    <h4 class="customerHead">CUSTOMERS</h4>
+                </div>
+                <!-- Begin Owl Carousel -->
+                <div id="owl-example" class="owl-carousel col-md-6">
+                    <div class="col-lg-2">
+                        <a href="http://www.gainesvilletargetrange.com/" target="_blank"><img id="gtr" src="GTRlogo4.jpg"></a>
+                        <h5><a href="http://www.gainesvilletargetrange.com/" target="_blank">Gainesville Target Range</a></h4>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="http://www.acorntooakinternational.com/" target="_blank"><img id="a2o" src="a2o-logo.jpg"></a>
+                        <h5><a href="http://www.acorntooakinternational.com/" target="_blank">Acorn to Oak, International</a></h4>
+                    </div>
+                    <div class="col-lg-2">
+                        <a href="http://www.rebootcoding.com/" target="_blank"><img id="reBoot" src="Customer_Male_Dark.png"></a>
+                        <h5><a href="http://www.rebootcoding.com/" target="_blank">Re:Boot Coding</a></h4>
+                    </div>
+                </div>
+                <!-- End Owl Carousel -->
+            </div>
+        </div>
+        <hr />
+    </div>
+    <div class="container-fluid">
+        <!-- Begin Contact Us -->
+        <div class="container" style="background-color:#080000; padding-left: 40px; padding-right: 40px; padding-top: 40px">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="contactHeading">Contact Us</h2>
+                    <p class="chtag">Drop us a line or give us a ring. We love to hear from you.</p>
+                </div>
+                <div class="col-md-4">
+                    <h2><span class="fa fa-coffee" style="margin-left: 150px; color: #CC5200"></span></h2>
+                    <p style="font-size: 13px; color: #CC5200; text-align: center">____________________________________________________</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="remarks">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    <h5 class="contactName">Jerry John Comellas</h5>
+                        <p class="contactInfo"><span class="fa fa-map-marker"></span><span class="spacing">6304 N. 19th Street, Tampa, FL 33610</span></p>
+                        <p class="contactInfo"><span class="fa fa-phone"></span><span class="spacing">(813) 331-7170</span></p>
+                        <p class="contactInfo"><span class="fa fa-medkit"></span><span class="spacing">support@site.com</span></p>
+                        <p class="contactInfo"><span class="fa fa-info"></span><span class="spacing">http://www.site.com</span></p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-box">
+                            <form action="index.html" method="POST" name="New Message">
+                                <fieldset class="fields" id="form-fields">
+                                    <label for="Name"> Your name: </label>
+                                    <input type="text" name="Name" id="Name" style="margin-left: 22px; margin-bottom: 10px; width: 240px" />
+                                    <label for="Email"> Your email: </label>
+                                    <input type="text" name="Email:" id="Email" style="margin-left: 22px; margin-bottom: 10px; width: 240px" />
+                                    <label for="services"> Services Needed: </label>
+                                    <select style="margin-left: 22px; margin-bottom: 10px">
+                                        <option> Web Design </option>
+                                        <option> Rework Site </option>
+                                        <option> CMS </option>
+                                        <option> Enquiry </option>
+                                    </select>
+                                    <br />
+                                    <label for="text"> Your Message: </label>
+                                    <textarea name="enquiry-text" rows="14%" cols="46%"></textarea>
+                                    <input class="submitButton" type="submit" value="Send  It" />
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="footer">
+                        <footer class="end">Copyright <span class="glyphicon glyphicon-copyright-mark"></span>Jerry Comellas and Re:Boot Coding 2015</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/wow.min.js"></script>
+        <script src="dist/js/smooth-scroll.js"></script>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="owl-carousel/owl.carousel.min.js"></script>
+        <script src="scripts.js" type="text/javascript" charset "utf-8"></script>
+        <script src="headhesive.min.js"></script>
+
+        <script>
+        var header = new Headhesive('.header');
+        smoothScroll.init();
+        new WOW().init();
+        </script>
+
+</body>
+
+</html>
