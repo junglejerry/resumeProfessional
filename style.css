@@ -1,0 +1,107 @@
+.Passion_Magnis_modipsae_que_lib_voloratati_andi {
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+    text-align: left;
+    position: absolute;
+    left: 473.937px;
+    top: 1438.882px;
+    width: 268px;
+    height: 168px;
+    z-index: 128;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.background {
+  background-color: rgb(245, 247, 251);
+  box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+  left: 0px;
+  top: 0px;
+  height: 40px;
+  z-index: 220;
+}
+
+
+.glyphs {
+    font-size: 12px;
+    color: #506a85;
+    font-family: Source Sans Pro Regular, Sans-Serif;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+#links {
+	font-size: 12px;
+    color: red;  
+    position:relative;
+    font-family: Source Sans Pro Regular, Sans-Serif;
+}
+
+.spacing {
+    padding-left: 10px;
+}
+
+
+.navbar-two { 		/* REEN  */
+	font-size: 14px;
+	list-style: none;
+    color: #506a85;
+    font-family: Source Sans Pro Regular, Sans-Serif;
+    margin-top: 12px;
+    margin-left: 14px;
+}
+
+    
+.jumbotron {  			/* large image  */
+  font-family: Lato Black, serif;
+  color: #ffffff;
+  background-image: url(images/bannerImage.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 590px;
+  width: 100%;
+}
+
+
+.subheading1 {
+    color: #ffffff;
+    font-family: Source Sans Pro Regular, Sans-Serif;
+    margin-top: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 599px) {}
+
+@media screen and (min-width: 980px) {}
+
+/*
+miniNavBar color:
+#f5f7fa
+
+Latest Works Background Color (Light Gray):
+#f2f5f7
+
+Who We Are Background Color(Navy Blue):
+#2f4052
+
+Footer Background Color(Darker Blue):
+#283645
+
+Green Box Color:
+#00bc9c
+
+Font Color(Bluish Gray):
+#506a85
+
+White Font:
+#ffffff
+*/
+
