@@ -1,79 +1,402 @@
-.Passion_Magnis_modipsae_que_lib_voloratati_andi {
-    font-size: 26px;
-    font-family: "Lato";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    line-height: 1.308;
-    text-align: left;
-    position: absolute;
-    left: 473.937px;
-    top: 1438.882px;
-    width: 268px;
-    height: 168px;
-    z-index: 128;
-}
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 body {
-  padding-top: 50px;
+    padding-top: 50px;
 }
 
 .background {
-  background-color: rgb(245, 247, 251);
-  box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
-  left: 0px;
-  top: 0px;
-  height: 40px;
-  z-index: 220;
+    background-color: rgb(245, 247, 251);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    left: 0px;
+    top: 0px;
+    height: 40px;
+    z-index: 220;
 }
-
 
 .glyphs {
     font-size: 12px;
     color: #506a85;
-    font-family: Source Sans Pro Regular, Sans-Serif;
+    font-family: "Source Sans Pro", sans-serif;
     margin-left: 14px;
     margin-top: 16px;
 }
 
-#links {
-	font-size: 12px;
-    color: red;  
-    position:relative;
-    font-family: Source Sans Pro Regular, Sans-Serif;
+.phoneNumber {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+
+.search {
+    font-size: 12px;
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 16px;
+    margin-left: 122px;
+    margin-right: 100px;
+}
+
+#links li a {
+    font-size: 12px;
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding-right: 44px;
 }
 
 .spacing {
     padding-left: 10px;
 }
 
-
-.navbar-two { 		/* REEN  */
-	font-size: 14px;
-	list-style: none;
-    color: #506a85;
-    font-family: Source Sans Pro Regular, Sans-Serif;
+#brand {
+    /* REEN  */
     margin-top: 12px;
-    margin-left: 14px;
+    margin-left: 100px;
+    margin-bottom: 12px;
+    width: 145px;
+    height: 36px;
 }
 
-    
-.jumbotron {  			/* large image  */
-  font-family: Lato Black, serif;
-  color: #ffffff;
-  background-image: url(images/bannerImage.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 590px;
-  width: 100%;
+.bannerImage {
+    background-image: url(images/bannerImage.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: auto;
+    margin-top: -20px;
+    padding: 100px;
 }
 
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Lato", sans-serif;
+    padding-top: 140px;
+    text-align: center;
+}
 
 .subheading1 {
     color: #ffffff;
-    font-family: Source Sans Pro Regular, Sans-Serif;
-    margin-top: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 4px;
+    margin-left: 220px;
+    margin-right: 220px;
+    font-size: 18px;
+    text-align: center;
 }
 
+.startButton {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  border-color: rgb(0, 188, 156);
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 30px;
+  width: 220px;
+  height: 50px;
+  z-index: 179;
+  cursor: pointer;
+}
+
+.separation50 {
+  margin-top: 50px;
+}
+
+.separation25 {
+  margin-top: 25px;
+}
+
+.biography {
+    font-size: 64px;
+    font-family: "Lato" sans-serif;
+    color: #506a85;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bioData ul li {
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #506a85;
+    text-align: center;
+    list-style-type: none;
+}
+
+.heart {
+  text-align: right;
+  text-align: top;
+  font-size: 42px;
+  color: rgb(0, 188, 156);
+  font-weight: bold;
+}
+
+.passion {
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+}
+
+.lightbulb {
+  text-align: right;
+  text-align: top;
+  font-size: 42px;
+  color: rgb(0, 188, 156);
+  font-weight: bold;
+}
+
+.creativity {
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+}
+
+.star {
+  text-align: right;
+  text-align: top;
+  font-size: 42px;
+  color: rgb(0, 188, 156);
+  font-weight: bold;
+}
+
+.quality {
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+}
+
+.data {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.frameColor1 {
+  background-color: #f2f5f7;
+}
+
+.works {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.workInfo {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85;
+  margin-bottom: 25px;
+}
+
+.showcase1 {
+  width: 399px;
+  height: 273px;
+  z-index: 118;
+  margin-left: 75px;
+}
+
+.captionBackground1 {
+  background-color: #ffffff;
+  width: 399px;
+  height: 68px;
+  margin-left: 75px;
+  text-align: center;
+}
+
+.caption1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 25px;
+  padding-top: 15px;
+}
+
+.caption1b {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85; 
+  font-size: 11px;
+  margin-left: 25px;
+}
+
+.showcase2 {
+  width: 399px;
+  height: 273px;
+  z-index: 118;
+  margin-right: 75px;
+}
+
+.captionBackground2 {
+  background-color: #ffffff;
+  width: 399px;
+  height: 68px;
+  margin-right: 75px;
+  text-align: center;
+}
+
+.caption2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 25px;
+  padding-top: 15px;
+}
+
+.caption2b {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85; 
+  font-size: 11px;
+  margin-right: 25px;
+}
+
+.carousel {
+  margin-left: 125px;
+}
+
+.carousel li {
+  display: inline-block;
+}
+
+.showcase3 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.showcase4 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+
+}
+
+.showcase5 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.showcase6 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.connect {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  font-weight: bold;
+  margin-left: 330px;
+  margin-right: 330px;
+  margin-bottom: 10px;
+}
+
+.connectInfo {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85;
+  margin-left: 330px;
+  margin-right: 330px;
+}
+
+.getInTouch {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  border-color: rgb(0, 188, 156);
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 115px;
+  width: 130px;
+  height: 35px;
+  z-index: 179;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.bottomPanelColor {
+  background-color: #2f4052;
+  padding: 30, 90, 30, 90;
+  height: 330px;
+}
+
+.footerColor {
+  background-color: #283645;
+  padding-left: 90px;
+  padding-right: 90px;
+  height: 60px;
+}
+
+.who {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.reenSmall {
+    width: 95px;
+    height: 27px;
+    margin-bottom: 8px;
+}
+
+.whoInfo {
+  font-size: 9px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.aboutLink {
+  font-size: 11px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.hackerInfo {
+  font-size: 9px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.storyName {
+  font-size: 9px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  display: block;
+}
+
+.contactInfo {
+  font-size: 9px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+}
 
 
 
@@ -81,7 +404,6 @@ body {
 @media screen and (max-width: 599px) {}
 
 @media screen and (min-width: 980px) {}
-
 /*
 miniNavBar color:
 #f5f7fa
