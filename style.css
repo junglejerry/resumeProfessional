@@ -62,22 +62,32 @@ body {
     height: 36px;
 }
 
+.dropdown li {
+  display: block;
+}
+
+.divider {
+  width: 85%;
+}
+
 .bannerImage {
     background-image: url(images/bannerImage.png);
     background-position: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    max-height: 700px;
     width: auto;
+    height: auto;
     margin-top: -20px;
-    padding: 100px;
 }
 
-h1 {
+.designers {
     color: #ffffff;
     font-weight: bold;
     font-size: 60px;
     font-family: "Lato", sans-serif;
     padding-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -85,8 +95,9 @@ h1 {
     color: #ffffff;
     font-family: "Source Sans Pro", sans-serif;
     margin-top: 4px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
     font-size: 18px;
     text-align: center;
 }
@@ -102,11 +113,13 @@ h1 {
   border-color: rgb(0, 188, 156);
   background-color: rgb(0, 188, 156);
   box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
-  margin-left: 30px;
+  margin-left: 50px;
+  margin-right: auto;
   width: 220px;
   height: 50px;
   z-index: 179;
   cursor: pointer;
+  margin-bottom: 150px;
 }
 
 .separation50 {
@@ -182,12 +195,18 @@ h1 {
   background-color: #f2f5f7;
 }
 
+.4thContainerMargin {
+  margin: 20%, 40%, 20%, 40%;
+}
+
 .works {
   text-align: center;
   font-family: "Lato", sans-serif;
   color: #506a85;
   margin-bottom: 10px;
   font-weight: bold;
+  width: auto;
+  height: auto;
 }
 
 .workInfo {
@@ -196,21 +215,25 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #506a85;
   margin-bottom: 25px;
+  width: auto;
+  height: auto;
 }
 
 .showcase1 {
-  width: 399px;
-  height: 273px;
+  width: 350px;
+  height: 240px;
   z-index: 118;
-  margin-left: 75px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .captionBackground1 {
   background-color: #ffffff;
-  width: 399px;
+  width: 350px;
   height: 68px;
-  margin-left: 75px;
-  text-align: center;
+  z-index: 118;
+  margin-left: -1px;
+  margin-right: auto;
 }
 
 .caption1 {
@@ -219,7 +242,8 @@ h1 {
   color: #506a85;
   font-size: 14px;
   font-weight: bold;
-  margin-left: 25px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 15px;
 }
 
@@ -228,22 +252,24 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #506a85; 
   font-size: 11px;
-  margin-left: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .showcase2 {
-  width: 399px;
-  height: 273px;
+  width: 350px;
+  height: 240px;
   z-index: 118;
-  margin-right: 75px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .captionBackground2 {
   background-color: #ffffff;
-  width: 399px;
+  width: 350px;
   height: 68px;
-  margin-right: 75px;
-  text-align: center;
+  margin-right: auto;
+  margin-left: -1px;
 }
 
 .caption2 {
@@ -252,7 +278,8 @@ h1 {
   color: #506a85;
   font-size: 14px;
   font-weight: bold;
-  margin-right: 25px;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 15px;
 }
 
@@ -261,15 +288,25 @@ h1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #506a85; 
   font-size: 11px;
-  margin-right: 25px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.carousel {
-  margin-left: 125px;
+#alignCarousel {
+  outline-offset: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.carousel li {
-  display: inline-block;
+#owl-example .showcase {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#owl-example .showcase img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .showcase3 {
@@ -284,7 +321,6 @@ h1 {
   height: 130px;
   z-index: 118;
   margin: 7px;
-
 }
 
 .showcase5 {
@@ -306,8 +342,8 @@ h1 {
   font-family: "Lato", sans-serif;
   color: #506a85;
   font-weight: bold;
-  margin-left: 330px;
-  margin-right: 330px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10px;
 }
 
@@ -316,8 +352,8 @@ h1 {
   font-size: 14px;
   font-family: "Source Sans Pro", sans-serif;
   color: #506a85;
-  margin-left: 330px;
-  margin-right: 330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .getInTouch {
@@ -340,15 +376,11 @@ h1 {
 
 .bottomPanelColor {
   background-color: #2f4052;
-  padding: 30, 90, 30, 90;
-  height: 330px;
 }
 
-.footerColor {
-  background-color: #283645;
-  padding-left: 90px;
-  padding-right: 90px;
-  height: 60px;
+.bottomPanel {
+  padding: 30, 90, 30, 90;
+  margin: 20, 20, 20, 20;
 }
 
 .who {
@@ -356,47 +388,194 @@ h1 {
   color: #ffffff;
   margin-top: 50px;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reenSmall {
     width: 95px;
     height: 27px;
     margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .whoInfo {
-  font-size: 9px;
+  font-size: 10px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #ffffff;
+  color: #a3b1bf;
   margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .aboutLink {
   font-size: 11px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #ffffff;
+  color: #a3b1bf;
   font-weight: bold;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.hacker {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hackerInfo {
-  font-size: 9px;
+  font-size: 10px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #ffffff;
+  color: #a3b1bf;
   text-decoration: underline;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .storyName {
-  font-size: 9px;
+  font-size: 10px;
   font-family: "Source Sans Pro", sans-serif;
-  color: #ffffff;
+  color: #a3b1bf;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inTouch {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inTouchInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contactInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomPanelSpace {
+  margin-bottom: 50px;
+}
+
+#subForm {
+  background-color: #4e5c6c;
   font-size: 9px;
   font-family: "Source Sans Pro", sans-serif;
   color: #ffffff;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+#emailBox {
+  color: #ffffff;
+  width: 108px;
+  height: 28px;
+  background-color: #4e5c6c;
+  border-color: gray;
+  margin: 6px;
+  text-align: center;
+}
+
+#subscribe {
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  border-color: rgb(0, 188, 156);
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 6px;
+}
+
+.updates {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.updateInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.footerColor {
+  background-color: #283645;
+}
+
+.footerContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.end {
+  color: #707e8c;
+  font-size: 11px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.endLinks li{
+  display: inline-block;
+  margin-top: 11px;
+  margin-bottom: 8px;
+}
+
+.endLinks li a {
+    margin-right: 10px;
+    color: #707e8c;
+    font-size: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 11px;
+    margin-top: 8px;
+}
+
+.carrot {
+  margin-top: 11px;
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+
 
 
 
