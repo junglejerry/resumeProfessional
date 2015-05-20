@@ -1,39 +1,43 @@
+/* Google Fonts Open Sans "utilize font-weight": https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans */
+
+@import url(http://fonts.googleapis.com/css?family=Give+You+Glory|Montez|Kaushan+Script|Quattrocento+Sans|Montserrat|Courgette);
+    /*  font-family: 'Give You Glory', cursive;
+        font-family: 'Montez', cursive;
+        font-family: 'Kaushan Script', cursive;
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Courgette', cursive;  */
+
 .wrapper {
-    background-image: url(ricepaper_v3_@2X.png);
+    background-image: url(../images/ricepaper_v3_@2X.png);
     background-repeat: 100%;
 }
-
 /*colors & content for nav bar*/
+
 .navbar-header {
     font-family: sans-serif;
     color: #F0BF0B;
     font-size: 12px;
 }
 
+/*.navbar-fixed-top .container{
+    background-color: #fff;
+}*/
 /*colors & content for nav bar*/
+
 .icon-bar {
     font-family: sans-serif;
     color: #F0BF0B;
     font-size: 12px;
 }
 
-.headhesive--clone {
-  position: fixed;                   /* fix the element */
-  top: 0;                            /* make sure it's at the top */
-  transform: translateY(-100%);      /* move it off screen */
-  transition: all 300ms ease-in-out; /* add animation */
-}
-
-.headhesive--stick {
-  transform: translateY(0%); /* move it back on screen */
-}
 
 .jumbotron {
     text-align: center;
-    font-family: serif;
-    color: #080000;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: $primary-color;
     margin-bottom: 0px;
-    background-image: url(kayak-wallpaper.jpg);
+    background-image: url(../images/kayak-wallpaper.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -43,6 +47,11 @@
     margin-right: auto;
     margin-left: auto;
     margin-top: none;
+}
+
+.rotate {
+    font-family: 'Montez', cursive;
+    font-size: 34px;
 }
 
 .container {
@@ -67,24 +76,23 @@
 
 #glyphs {
     font-size: 11px;
-    color: #CC5200;
+    color: $secondary-color;
     text-align: center;
-    margin-top: -22px;
 }
 
 .heading1 {
     margin-bottom: -2px;
-    color: #080000;
+    color: $primary-color;
 }
 
 .subhead1 {
     font-size: 13px;
-    color: #CC5200;
+    color: $secondary-color;
 }
 
 .user {
     margin-left: 100px;
-    color: #080000;
+    color: $primary-color;
     margin-bottom: -2px;
 }
 
@@ -96,12 +104,44 @@
 
 .heading3 {
     margin-bottom: -2px;
-    color: #080000;
+    color: $primary-color;
 }
 
 .profileText {
     font-size: 13px;
-    color: #CC5200;
+    color: $secondary-color;
+}
+
+.myStats {
+    color: $primary-color;
+    font-size: 22px;
+}
+
+.fa-coffee {
+    color: $primary-color;
+    font-size: 24px;
+}
+
+.timer {
+    font-family: 'Kaushan Script', cursive;
+    color: $primary-color;
+    padding-left: 12px;
+}
+
+#stats {
+    font-family: 'Kaushan Script', cursive;
+    color: $primary-color;
+    font-size: 18px;
+}
+
+.fa-code {
+    color: $primary-color;
+    font-size: 24px;
+}
+
+.fa-building-o {
+    color: $primary-color;
+    font-size: 24px;
 }
 
 .heading4 {
@@ -110,7 +150,7 @@
 
 #services {
     font-size: 13px;
-    color: #CC5200;
+    color: $secondary-color;
 }
 
 .heading5 {
@@ -119,35 +159,59 @@
 
 .subhead5 {
     font-size: 13px;
-    color: #CC5200;
+    color: $secondary-color;
 }
 
 .resumeDetail {
     font-size: 13px;
-    color: #CC5200;
+    color: $secondary-color;
 }
 
 .school {
-    color: #080000;
+    color: $primary-color;
     text-align: center;
+    margin-top: 25px;
 }
 
 .dateRange {
     font-size: 12px;
-    color: #080000;
+    color: $primary-color;
     text-align: center;
+    margin-bottom: 25px;
+}
+
+.company1 {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.company2 {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.company3 {
+    color: $primary-color;
+    text-align: center;
+    margin-top: 100px;
 }
 
 #customers {
-   background-color: #F0BF0B; 
-   text-align: center; 
-   margin: 25px;
-   max-height: 280px;
+    background-color: #F0BF0B;
+    text-align: center;
+    height: auto;
+    width: auto;
 }
 
 .customerHead {
-    margin-top: 120px;
-    font-size: 2em;
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: 'Courgette', cursive;
+    text-align: left;
+    vertical-align: center;
+    padding-left: 38px;
 }
 
 #gtr {
@@ -180,8 +244,7 @@
     padding: 20px;
 }
 
-
-.spacing {
+#spacing {
     padding-left: 12px;
 }
 
@@ -196,58 +259,59 @@
 }
 
 .contactHeading {
-  margin-bottom: -2px; 
-  color: #F0BF0B;
+    margin-bottom: -2px;
+    color: #F0BF0B;
 }
 
 .chtag {
-  font-size: 13px; 
-  color: #CC5200;
+    font-size: 13px;
+    color: $secondary-color;
 }
 
 .remarks {
-   font-size: 13px; 
-   color: white; max-width: 700px;
+    font-size: 13px;
+    color: white;
+    max-width: 700px;
 }
 
 .contactName {
-  font-size: 16px;
-  color: #F0BF0B;
-  padding-top: 22px;
-  margin-left: 22px;
+    font-size: 16px;
+    color: #F0BF0B;
+    padding-top: 22px;
+    margin-left: 22px;
 }
 
 .contactInfo {
-  font-size: 13px; 
-  color: #CC5200;
-  margin-left: 22px;
+    font-size: 13px;
+    color: $secondary-color;
+    margin-left: 22px;
 }
 
 .fields {
-   font-size: 13px; 
-   color: #F0BF0B;
+    font-size: 13px;
+    color: #F0BF0B;
 }
 
 .submitButton {
-    font-size: 14px; 
-    color: #F0BF0B; 
-    background-color: #030000; 
-    border-radius: 15%; 
-    width: 90px; 
-    border-color: #CC5200; 
-    padding: 6px; 
+    font-size: 14px;
+    color: #F0BF0B;
+    background-color: #030000;
+    border-radius: 15%;
+    width: 90px;
+    border-color: $secondary-color;
+    padding: 6px;
     font-weight: bold;
 }
 
 #footer {
-  background-color:#030000; 
-  margin: 10px;
+    background-color: #030000;
+    margin: 10px;
 }
 
 .end {
-  color: #F0BF0B; 
-  font-size: 10px; 
-  margin: 10px;
+    color: #F0BF0B;
+    font-size: 10px;
+    margin: 10px;
 }
 
 .skillbar {
@@ -323,8 +387,7 @@
     color: rgba(0, 0, 0, 0.4);
     @media screen and (max-width: 599px) {}
     @media screen and (min-width: 980px) {}
-  }
-
+}
 
 
 /*
