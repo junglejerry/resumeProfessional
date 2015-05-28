@@ -11,9 +11,9 @@
   background-repeat: 100%; 
 }
 
-.navbar-header {
+.navbar-fixed-top {
   font-family: sans-serif;
-  color: #F0BF0B;
+  background-image: url(../images/ricepaper_v3_@2X.png);
   font-size: 12px; 
 }
 
@@ -37,7 +37,7 @@
   display: block;
   margin-right: auto;
   margin-left: auto;
-  margin-top: none; 
+  margin-top: 50px; 
 }
 
 .rotate {
@@ -61,8 +61,8 @@
   margin-top: 15px; 
 }
 
-.facebook {
-  margin-top: 15px; 
+.fb-like {
+  margin: 15px;
 }
 
 #glyphs {
@@ -237,10 +237,10 @@
   width: 180px;
   height: 180px;
   background-color: white;
-  border-radius: 50%;
-  box-shadow: inset 0 0 0px 0px;
+  border-radius: 20%;
+  box-shadow: inset 0 0 12px 2px;
   margin: 25px;
-  padding: 0px; 
+  padding: 20px; 
 }
 
 h4 a {
