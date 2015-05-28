@@ -16,7 +16,9 @@ $(document).ready(function() {
 
 
     //countTo//
-    $('.timer').countTo();
+    $('.timer').countTo({
+        speed: 12000 // How many milliseconds until the next statement shows.
+    });
 
 
     //Smooth Scroll//
@@ -43,7 +45,7 @@ $(document).ready(function() {
     $(".rotate").textrotator({
         animation: "dissolve", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
         separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-        speed: 9000 // How many milliseconds until the next word show.
+        speed: 4000 // How many milliseconds until the next statement shows.
     });
 
 
@@ -52,7 +54,7 @@ $(document).ready(function() {
         jQuery('.skillbar').each(function() {
             jQuery(this).find('.skillbar-bar').animate({
                 width: jQuery(this).attr('data-percent')
-            }, 6000);
+            }, 9000);
         });
     });
 
