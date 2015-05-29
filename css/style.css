@@ -264,6 +264,12 @@ h4 a {
   padding: 5px; 
 }
 
+.btn-primary {
+  color: #080000;
+  background-color: #E78309;
+  border-color: #CC5200;
+}
+
 #contactHeading {
   margin-bottom: -2px;
   color: #F0BF0B; 
