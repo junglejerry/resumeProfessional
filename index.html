@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/owl-carousel/owl.transitions.css">
     <link rel="stylesheet" type="text/css" href="assets/animate.css" />
     <link rel="stylesheet" type="text/css" href="assets/simpletextrotator.css" />
+    <link rel="stylesheet" href="css/form.css">
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <title> Professional Resume </title>
 </head>
@@ -123,8 +124,7 @@
                 </div>
                 <div class="col-md-4">
                     <h4><span class="glyphicon glyphicon-home wow tada"></span></h4>
-                    <p>6304 N. 19th St</p>
-                    <p style="margin-top: -9px">Tampa, FL 33610</p>
+                    <p>Tampa, Florida</p>
                 </div>
             </div>
         </div>
@@ -181,11 +181,11 @@
                     </div>
                     <!-- End JavaScript Skill Bar -->
                     <div class="skillbar clearfix " data-percent="65%">
-                        <div class="skillbar-title" style="background: #27ae60;"><span>SEO</span></div>
+                        <div class="skillbar-title" style="background: #27ae60;"><span>Angular</span></div>
                         <div class="skillbar-bar" style="background: #2ecc71;"></div>
                         <div class="skill-bar-percent">65%</div>
                     </div>
-                    <!-- End SEO Skill Bar -->
+                    <!-- End Angular Skill Bar -->
                     <div class="github">
                         <iframe src="http://ghbtns.com/github-btn.html?user=junglejerry&repo=junglejerry/FirstRepo&type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
                     </div>
@@ -440,46 +440,63 @@
                         <p class="chtag">I look forward to connecting with you.</p>
                     </div>
                     <div class="col-md-4">
-                        <h2><span class="fa fa-coffee wow rotateIn" style="margin-left: 134px; color: #CC5200"></span></h2>
-                        <p style="font-size: 13px; color: #CC5200; text-align: left">_____________________________________________</p>
+                        <h2><span id="coffeeGlyph" class="fa fa-coffee wow rotateIn"</span></h2>
+                        <hr id="bottomDivider"/>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-8">
                         <p class="remarks">Thank you for taking the time to review my website. I am currently available for freelance work and would certainly welcome the opportunity to work with a growing organization that is looking for a creative web developer. You may contact me by phone, email or social media. If you are looking for a quote for a special project or for more information simply complete the contact form. Again, thank you for your consideration.</p>
                         <h5 class="contactName">Jerry John Comellas</h5>
-                        <p class="contactInfo"><span class="fa fa-map-marker"></span><span class="spacing">6304 N. 19th Street, Tampa, FL 33610</span></p>
+                        <p class="contactInfo"><span class="fa fa-map-marker"></span><span class="spacing">Tampa, Florida</span></p>
                         <p class="contactInfo"><span class="fa fa-phone"></span><span class="spacing">(813) 331-7170</span></p>
                         <p class="contactInfo"><span class="fa fa-medkit"></span><span class="spacing">http://www.rebootcoding.com/</span></p>
                         <p class="contactInfo"><span class="fa fa-info"></span><span class="spacing">jerry.comellas@gmail.com</span></p>
                     </div>
                     <div class="col-md-4">
-                        <div class="form-box">
-                            <form action="index.html" method="POST" name="New Message">
-                                <fieldset class="fields" id="form-fields">
-                                    <label for="Name" style="margin-top: 10px"> Your name: </label>
-                                    <input type="text" name="Name" id="Name" style="margin-left: 22px; margin-bottom: 10px; width: 240px" />
-                                    <label for="Email"> Your email: </label>
-                                    <input type="text" name="Email:" id="Email" style="margin-left: 22px; margin-bottom: 10px; width: 240px" />
-                                    <label for="services"> Services Needed: </label>
-                                    <select style="margin-left: 22px; margin-bottom: 10px">
-                                        <option> Web Design </option>
-                                        <option> Rework Site </option>
-                                        <option> CMS </option>
-                                        <option> Enquiry </option>
-                                    </select>
+                            <div id="form-messages"></div>
+        
+                                <form id="ajax-contact" method="post" action="mailer.php">
+                                    <div class="field">
+                                        <label for="name">Name:</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+
+                                    <div class="field">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+
+                                    <div>
+                                        <label for="services"> Services Needed: </label>
+                                            <select style="margin-left: 22px; margin-bottom: 10px">
+                                                <option> Web Design </option>
+                                                <option> Rework Site </option>
+                                                <option> CMS </option>
+                                                <option> Enquiry </option>
+                                            </select>
+                                    </div>
                                     <br />
-                                    <label for="text"> Your Message: </label>
-                                    <textarea name="enquiry-text" rows="14%" cols="39%">This contact form is just a prototype, please connect with me by email, phone, or social media. Thanks.</textarea>
-                                    <input class="submitButton wow pulse" type="submit" value="Send  It" />
-                                </fieldset>
-                            </form>
-                        </div>
+
+                                    <div class="field">
+                                        <label for="message">Message:</label>
+                                        <textarea id="message" name="message" required></textarea>
+                                    </div>
+
+                                    <div class="field">
+                                        <button type="submit">Send</button>
+                                    </div>
+                                </form>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <!-- Footer -->
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12" id="footer">
-                        <footer class="end">Copyright <span class="glyphicon glyphicon-copyright-mark"></span>Jerry Comellas and Re:Boot Coding 2015</footer>
+                        <footer class="end">Copyright <span class="glyphicon glyphicon-copyright-mark"></span>Jerry Comellas 2015</footer>
                     </div>
                 </div>
             </div>
@@ -491,6 +508,7 @@
         <script src="assets/smooth-scroll.min.js"></script>
         <script src="assets/owl-carousel/owl.carousel.min.js"></script>
         <script src="assets/jquery.simple-text-rotator.js"></script>
+        <script src="scripts/app.js" type="text/javascript" charset "utf-8"></script>
         <script src="scripts/scripts.js" type="text/javascript" charset "utf-8"></script>
 </body>
 

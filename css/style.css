@@ -259,15 +259,26 @@ h4 a {
   font-size: 20px; 
 }
 
-.button2 {
+#button2 {
   margin: auto;
   padding: 5px; 
+  width: 125px;
+  height: 40px;
 }
 
 .btn-primary {
   color: #080000;
   background-color: #E78309;
   border-color: #CC5200;
+  font-size: 16px;
+  font-family: 'Courgette', cursive;
+}
+
+#coffeeGlyph {
+  margin-left: 45%;
+  margin-right: 55%;
+  text-align: center;
+  color: #CC5200;
 }
 
 #contactHeading {
@@ -286,6 +297,10 @@ h4 a {
   max-width: 700px; 
 }
 
+#bottomDivider {
+  border-top: 1px solid #CC5200;
+}
+
 .contactName {
   font-size: 16px;
   color: #F0BF0B;
@@ -299,25 +314,12 @@ h4 a {
   margin-left: 22px; 
 }
 
-.fields {
-  font-size: 13px;
-  color: #F0BF0B; 
-}
-
-.submitButton {
-  font-size: 14px;
-  color: #F0BF0B;
-  background-color: #030000;
-  border-radius: 15%;
-  width: 90px;
-  border-color: #CC5200;
-  padding: 6px;
-  font-weight: bold; 
-}
-
 #footer {
   background-color: #030000;
-  margin: 10px; 
+  padding: 10px; 
+  margin: 0;
+  padding-left: 10px; 
+  padding-top: 10px;
 }
 
 .end {
